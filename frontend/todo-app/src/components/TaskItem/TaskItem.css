@@ -1,0 +1,22 @@
+.task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-list > *:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  
+  .task-list h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
